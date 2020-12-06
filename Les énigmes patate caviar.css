@@ -1,0 +1,79 @@
+h1
+{
+		text-align: center;
+		background-color: dodgerblue;
+		font-family: Algerian;
+}
+h2
+{
+		text-align: left;
+		color: navy;
+		text-decoration: underline; 
+}
+.para
+{
+		text-indent: 40px;
+		text-align: justify;
+}
+.remarques 
+{
+		font-style: italic;
+}
+h3
+{
+		text-indent: 40px;
+		color: slateblue;
+		
+}
+.énigme
+{
+		text-align: justify;
+}
+.réponses
+{
+		list-style-type: circle;
+}
+/*pour les liens normaux*/
+a:link
+{
+		color: black;
+		text-decoration: none;
+}
+/*pour les liens déjà visités*/
+a:visited
+{
+		color: black;
+		text-decoration: none;
+}
+/*pour les liens au moment où on clique dessus*/
+a:active
+{
+		color: grey;
+		text-decoration: none;
+}
+/*juste pour le dernier lien*/
+.liena
+{
+		color: blue;
+		text-decoration: underline;
+}		
+.image
+{
+		margin-left: 500px;
+}
+.image_codage 
+{
+		margin-left: 400px;
+		width: 700px;
+}
+.tableau 
+{
+		width: 100%;
+		text-align: center;
+}
+table, th, td
+{
+		border-style: solid;
+		border-color: grey;
+		border-width: medium;
+}

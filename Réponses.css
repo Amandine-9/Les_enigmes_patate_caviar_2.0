@@ -1,0 +1,31 @@
+.faux
+{
+		text-align: center;
+		background-color: red;
+		font-family: Algerian;
+}
+.para
+{
+		text-indent: 40px;
+		text-align: justify;
+}
+.remarques 
+{
+		font-style: italic;
+}
+.juste
+{
+		text-align: center;
+		background-color: green;
+		font-family: Algerian;
+}
+.explications
+{
+		text-indent: 40px;
+		color: slateblue;
+		
+}
+.image
+{
+		margin-left: 500px;
+}

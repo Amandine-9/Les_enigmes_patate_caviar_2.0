@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+		<head>
+				<meta charset="utf-8">
+				<title> Les énigmes patate caviar </title>
+				<link rel="stylesheet" href="Les énigmes patate caviar.css">
+		</head>
+		<body>
+				<h1> le mystère de la phrase codée...</h1>
+				<h2> La dernière ligne droite : </h2>
+				<p class="para"> Vous n'avez toujour pas décroché et vous voulez tenter de résoudre ce dernier mystère ! Bravo, peu d'entre vous sont aussi motivés. Si vous avez 
+				réussi les énigmes précédentes vous devriez avoir récolté plusieurs suites de 1 et de 0. Ressortez-les maintenant, vous allez en avoir besoin. Connaissez-vous le 
+				codage ASCII ? Si oui, décoder cette phrase devrait être un jeu d'enfant pour vous, la seule information qui vous manque est la suivante : la phrase est codée sur 
+				7 bits, avec 1 bit pour la parité. Si non, <span class="remarques">(vous êtes foutus ptdr vous allez galérer)</span> il vous est quand même possible de la décoder grâce aux explications 
+				ci-dessous. <p> 
+				<h2> Le codage ASCII : </h2>
+				<p class="para"> Pour chaque énigme, vous avez récupéré des codes de 8 chiffres. Celui le plus à gauche ne nous intéresse pas, laissez-le de côté. Ensuite, les 3
+				suivants forment un nombre en écriture binaire. Trouvez-le et gardez-le en mémoire. <span class="remarques">(et puis si vous connaissez pas l'écriture binaire, 
+				cherchez sur internet je vais pas tout vous dire non plus !)</span> Pour simplifier les choses, appelons-le le nombre Patate. Et pour finir, 
+				les 4 derniers chiffres forment eux aussi un nombre en écriture hexadécimale. Trouvez-le et gardez-le en mémoire. <span class="remarques">(et puis pareil si vous connaissez pas l'écriture hexadécimale, 
+				cherchez sur internet je vais pas tout vous dire non plus !)</span> Pour simplifier les choses, appelons-le le nombre Caviar.
+				Bien à présent jetez un oeil à ce tableau : </p>
+				<img class="image_codage" src="Codage ASCII.jpg" alt="Tableau codage ASCII"/> 
+				<p class="para"> En vous aidant du tableau vous allez pouvoir retrouver lettre par lettre la phrase codée. <span class="remarques">(ah oui oui ça va vous 
+				prendre du temps)</span> Le nombre Patate correspond à la ligne du tableau et le nombre Caviar coorespond à la colonne du tableau. Par exemple, si vous trouvez 
+				nombre Patate = 4 et nombre Caviar = D, alors la ligne correspondante est "U+0040" et la colonne correspondante est "D". La lettre correspondante est donc "M". 
+				Maitenant, vous avez toutes les clés en main pour la dernière énigme, bonne chance ! </p>
+		</body>
+</html>
